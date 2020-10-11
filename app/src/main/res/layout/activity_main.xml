@@ -13,8 +13,8 @@
                   android:layout_height="wrap_content"
                   android:layout_alignParentTop="true"
                   android:layout_centerHorizontal="true"
-                  android:text="Team 1"
-                  style="@style/ScoreText"/>
+                  android:text="@string/team_1"
+                  style="@style/TeamText"/>
 
         <ImageButton
                 android:id="@+id/decreaseTeam1"
@@ -60,8 +60,8 @@
                   android:layout_height="wrap_content"
                   android:layout_alignParentTop="true"
                   android:layout_centerHorizontal="true"
-                  android:text="Team 2"
-                  style="@style/ScoreText"/>
+                  android:text="@string/team_2"
+                  style="@style/TeamText"/>
 
         <TextView
                 android:id="@+id/score_2"
